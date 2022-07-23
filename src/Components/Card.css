@@ -1,0 +1,22 @@
+.robot-container {
+    display: inline-block;
+    background-color: rgb(69, 253, 216);
+    border: 3px;
+    padding: 3px;
+    margin: 30px 30px 30px 30px;
+    transition: all 1s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.robot-container:hover {
+    transform: scale(1.1);
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+h2, p {
+    text-align: center;
+}
